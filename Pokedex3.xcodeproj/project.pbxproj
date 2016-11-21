@@ -12,6 +12,7 @@
 		3F717F471DE36DD700A45B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F717F451DE36DD700A45B74 /* Main.storyboard */; };
 		3F717F491DE36DD700A45B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F717F481DE36DD700A45B74 /* Assets.xcassets */; };
 		3F717F4C1DE36DD700A45B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F717F4A1DE36DD700A45B74 /* LaunchScreen.storyboard */; };
+		3F717F541DE3700F00A45B74 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F717F531DE3700F00A45B74 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3F717F481DE36DD700A45B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F717F4B1DE36DD700A45B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F717F4D1DE36DD700A45B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F717F531DE3700F00A45B74 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				3F717F431DE36DD700A45B74 /* ViewController.swift */,
 				3F717F451DE36DD700A45B74 /* Main.storyboard */,
 				3F717F481DE36DD700A45B74 /* Assets.xcassets */,
+				3F717F531DE3700F00A45B74 /* pokemon.csv */,
 				3F717F4A1DE36DD700A45B74 /* LaunchScreen.storyboard */,
 				3F717F4D1DE36DD700A45B74 /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				3F717F4C1DE36DD700A45B74 /* LaunchScreen.storyboard in Resources */,
 				3F717F491DE36DD700A45B74 /* Assets.xcassets in Resources */,
+				3F717F541DE3700F00A45B74 /* pokemon.csv in Resources */,
 				3F717F471DE36DD700A45B74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
