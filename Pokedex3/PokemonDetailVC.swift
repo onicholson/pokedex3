@@ -8,27 +8,21 @@
 
 import UIKit
 
-class ProkemonDetailVC: UIViewController {
+class PokemonDetailVC: UIViewController {
 
+    var pokemon: Pokemon!
+    
+    @IBOutlet var nameLbl: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        var pokemon: Pokemon!
+        
+        nameLbl.text = pokemon.name
         
         
     }
 
  
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
